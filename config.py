@@ -87,3 +87,9 @@ def obter_dia_semana():
 
 def obter_rotina_hoje():
     return CRONOGRAMA.get(obter_dia_semana(), {})
+
+# === Emoções disponíveis para a IA ===
+EMOCOES_DISPONIVEIS = [
+    "feliz", "triste", "com saudade", "carinhosa", "com ciúmes",
+    "brava", "neutra", "apaixonada", "carente", "sensual"
+]
